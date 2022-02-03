@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-
+    font-family: 'Rowdies', cursive;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
     align-items: center;
     background-color: #932432;
     color: #f3f3f3;
+    width: 100%;
 }
 
 .title {
@@ -106,4 +107,24 @@ body {
     .navbar-links.active {
         display: flex;
     }
+
+}
+
+/* Home */
+
+#home img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* About */
+
+#about {
+    background-color: #f3f3f3;
+    color: #3c1874;
+    font-size: 1.25rem;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2;
 }
