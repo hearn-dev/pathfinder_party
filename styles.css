@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Rowdies', cursive;
+    background-color: #f3f3f3;
 }
 
 .container {
@@ -25,6 +26,7 @@ body {
     background-color: #932432;
     color: #f3f3f3;
     width: 100%;
+    position: fixed;
 }
 
 .title {
@@ -128,3 +130,27 @@ body {
     text-align: center;
     line-height: 2;
 }
+
+/* Characters */
+
+#characters {
+    background-color: #283747;
+    color: #f3f3f3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.character-container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.character{
+    width: 25%;
+}
+
+figure img {
+    width: 250px;
+}
+
